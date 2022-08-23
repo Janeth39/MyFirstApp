@@ -11,26 +11,26 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
         android:layout_gravity="center_vertical"
         app:srcCompat="@drawable/afjrotc"
-        android:layout_margin="30dp"/>
+        android:layout_margin="30sp"/>
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="200sp"
         app:srcCompat="@drawable/colorguard" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="30dp"
+        android:paddingTop="30sp"
         android:text="Welcome to the"
         android:layout_gravity="center"
         android:textColor="#083D71"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,11 +38,11 @@
         android:text="VVHS AFJROTC APP"
         android:layout_gravity="center"
         android:textColor="#083D71"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="200dp"
+        android:id="@+id/intro"
+        android:layout_width="200sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Introduction" />
