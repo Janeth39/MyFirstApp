@@ -6,21 +6,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="#c3e7fd"
-    android:gravity="center">
+    android:background="#c3e7fd">
+<!--    android:gravity="center">-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/afjrotc"
+        android:layout_margin="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/colorguard" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="30dp"
-        android:text="Welcome to the VVHS AFJROTC APP"
+        android:text="Welcome to the"
+        android:layout_gravity="center"
+        android:textColor="#083D71"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VVHS AFJROTC APP"
+        android:layout_gravity="center"
         android:textColor="#083D71"
         android:textSize="24dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:text="Introduction" />
 
 </LinearLayout>
