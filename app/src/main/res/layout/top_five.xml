@@ -12,7 +12,7 @@
         android:id="@+id/imageView2"
         android:layout_width="144dp"
         android:layout_height="611dp"
-        app:srcCompat="@drawable/topFive" />
+        app:srcCompat="@drawable/topfive" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -108,11 +108,11 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/nextbtn"
+            android:id="@+id/Home"
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Next" />
+            android:text="Home" />
 
     </LinearLayout>
 
