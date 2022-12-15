@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,5 +9,43 @@
     android:background="#c3e7fd">
     <!--    android:gravity="center">-->
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/afjrotc"
+        android:layout_margin="30sp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        app:srcCompat="@drawable/Rotc_5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30sp"
+        android:text="Core Values:"
+        android:layout_gravity="center"
+        android:textColor="#083D71"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Integrity first, Service before self, Excellence in all we do"
+        android:layout_gravity="center_vertical"
+        android:textColor="#083D71"
+        android:textSize="24sp"
+        android:paddingLeft="24dp"/>
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next" />
 
 </LinearLayout>
